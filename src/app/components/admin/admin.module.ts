@@ -6,6 +6,7 @@ import { HomeComponent } from './pages/home/home.component';
 
 
 @NgModule({
+  // Lazy-load - removo do app.module e chamo aqui, duplicação é proibidido
   declarations: [HomeComponent],
   imports: [
     CommonModule,
