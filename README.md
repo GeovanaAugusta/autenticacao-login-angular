@@ -1,27 +1,49 @@
-# AuthFront
+# Tela de Login - Autenticação
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
+Neste projeto foi desenvolvida uma tela de Login com [Angular CLI](https://github.com/angular/angular-cli) versão 15.1.4, com o intuito de aplicar os conceitos de guardas nas rotas. Foi usado um fake serve jwt para simular o post do login e verificar pela token (controle de acessibilidade), a concretização da entrada do usuário por meio da inclusão da lógica de acesso.
 
-## Development server
+## Habilidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Análise para escolha da melhor guarda de rotas;
 
-## Code scaffolding
+- CanActivateChild para controle de acessibilidade de rotas aninhadas;
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Lazy loading de componentes;
 
-## Build
+- Controle de transição de rotas.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instruções Gerais
 
-## Running unit tests
+- Clone o repositório
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ `git@github.com:GeovanaAugusta/tela-login-angular-auth.git`.
+ 
+ - Entre na pasta do repositório que você acabou de clonar:
+    
+ `cd tela-login-angular-auth.git
+`
 
-## Running end-to-end tests
+## Rodando localmente
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Instale as dependências e inicie a aplicação que rodará na porta 4200:
 
-## Further help
+``` bash
+npm install
+ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Após isso, abra uma nova aba em seu terminal, entre novamente na pasta do repositório e a partir dela entre na pasta com o servidor fake, para o funcionamento da autenticação, ambos deverão rodar juntos:
+
+ `cd tela-login-angular-auth.git
+ cd src/fake-jwt
+ node index.js
+`
+
+- Entre no http://localhost:4200/ e faça seu login:
+
+`
+email: geovanaag@fullstack.com
+senha: 123
+`
+
+- Confira outras combinações e veja a autenticação funcionando.
