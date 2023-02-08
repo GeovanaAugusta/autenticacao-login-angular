@@ -47,4 +47,4 @@ email: geovanaag@fullstack.com
 senha: 123
 ```
 
-- Confira outras combinações e veja a autenticação funcionando.
+- Tente outras combinações e veja a autenticação funcionando.
