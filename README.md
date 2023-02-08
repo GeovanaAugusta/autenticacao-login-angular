@@ -48,3 +48,27 @@ senha: 123
 ```
 
 - Tente outras combinações e veja a autenticação funcionando.
+
+## Rodando pelo Vercel
+
+- Entre no link <https://autenticacao-login-angular.vercel.app/> e faça seu login ou testes, normalmente.
+
+
+# Documentação da API
+
+### Login
+
+#### Fazer login
+```bash
+  POST /
+```
+
++ Formato do corpo da Requisição:
+    + Body
+
+```json
+  {
+    "email": "geovanaag@fullstack.com",
+    "password": "123"
+  }
+  ```
