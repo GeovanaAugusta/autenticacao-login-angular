@@ -20,7 +20,7 @@ Neste projeto foi desenvolvida uma tela de Login com [Angular CLI](https://githu
  
  - Entre na pasta do repositório que você acabou de clonar:
     
- `cd tela-login-angular-auth.git
+ `cd tela-login-angular-auth
 `
 
 ## Rodando localmente
