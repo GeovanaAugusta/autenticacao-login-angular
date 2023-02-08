@@ -51,7 +51,7 @@ senha: 123
 
 ## Rodando pelo Vercel
 
-- Entre no link <https://autenticacao-login-angular.vercel.app/> e faça seu login ou testes, normalmente.
+- Entre no link <a href="https://autenticacao-login-angular.vercel.app" target="_blank">aqui</a> e faça seu login ou testes, normalmente.
 
 
 # Documentação da API
