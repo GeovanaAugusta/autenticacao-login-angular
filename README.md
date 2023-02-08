@@ -34,16 +34,17 @@ ng serve
 
 - Após isso, abra uma nova aba em seu terminal, entre novamente na pasta do repositório e a partir dela entre na pasta com o servidor fake, para o funcionamento da autenticação, ambos deverão rodar juntos:
 
- `cd tela-login-angular-auth.git
- cd src/fake-jwt
- node index.js
-`
+``` bash 
+cd tela-login-angular-auth.git
+cd src/fake-jwt
+node index.js
+```
 
 - Entre no http://localhost:4200/ e faça seu login:
 
-`
+``` bash 
 email: geovanaag@fullstack.com
 senha: 123
-`
+```
 
 - Confira outras combinações e veja a autenticação funcionando.
