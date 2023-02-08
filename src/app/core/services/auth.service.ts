@@ -9,7 +9,8 @@ import { Observable, catchError, map, throwError } from 'rxjs';
 })
 export class AuthService {
 
-  private url: string = 'http://localhost:3000';
+  private url: string = 'https://fake-server-jwt.vercel.app';
+
 
   constructor(private http: HttpClient, private router: Router) { }
 
