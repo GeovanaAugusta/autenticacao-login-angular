@@ -1,6 +1,6 @@
 # Tela de Login - Autenticação
 
-Neste projeto foi desenvolvida uma tela de Login com [Angular CLI](https://github.com/angular/angular-cli) versão 15.1.4, com o intuito de aplicar os conceitos de guardas nas rotas. Foi usado um fake serve jwt para simular o post do login e verificar pela token (controle de acessibilidade), a concretização da entrada do usuário por meio da inclusão da lógica de acesso.
+Neste projeto foi desenvolvida uma tela de Login com [Angular CLI](https://github.com/angular/angular-cli) versão 15.1.4, com o intuito de aplicar os conceitos de guardas nas rotas. Foi usado um servidor fake jwt para simular o post do login e verificar pela token (controle de acessibilidade) se será bem sucedida a entrada do usuário.
 
 ## Habilidades
 
@@ -10,7 +10,7 @@ Neste projeto foi desenvolvida uma tela de Login com [Angular CLI](https://githu
 
 - Lazy loading de componentes;
 
-- Controle de transição de rotas.
+- Controle de transição de rotas por meio da inclusão da lógica de acesso.
 
 ## Instruções Gerais
 
